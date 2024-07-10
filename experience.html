@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f3f2ef;
+    }
+
+    .experience-section {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .experience-header {
+      font-size: 24px;
+      font-weight: bold;
+      color: #0073b1;
+      margin-bottom: 20px;
+    }
+
+    .experience-item {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+
+    .experience-item:last-child {
+      border-bottom: none;
+    }
+
+    .experience-logo {
+      flex-shrink: 0;
+      margin-right: 20px;
+    }
+
+    .experience-logo img {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px;
+    }
+
+    .experience-details {
+      flex-grow: 1;
+    }
+
+    .experience-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .experience-company {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .experience-duration {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .experience-description {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .promotion {
+      margin-left: 20px;
+      border-left: 2px solid #0073b1;
+      padding-left: 20px;
+      position: relative;
+      margin-bottom: 10px;
+    }
+
+    .promotion::before {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 0;
+      width: 12px;
+      height: 12px;
+      background-color: #0073b1;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="experience-section">
+    <div class="experience-header">Experience</div>
+    
+    <div class="experience-item">
+      <div class="experience-logo">
+        <img src="https://via.placeholder.com/60" alt="Company Logo">
+      </div>
+      <div class="experience-details">
+        <div class="experience-title">Software Engineer</div>
+        <div class="experience-company">Tech Company</div>
+        <div class="experience-duration">Jan 2020 - Present</div>
+        
+        <div class="promotion">
+          <div class="experience-title">Senior Software Engineer</div>
+          <div class="experience-duration">Jan 2022 - Present</div>
+          <div class="experience-description">
+            Leading a team of developers to create innovative solutions. Improved the performance of the main product by 30% through optimized code and efficient algorithms.
+          </div>
+        </div>
+        
+        <div class="promotion">
+          <div class="experience-title">Software Engineer</div>
+          <div class="experience-duration">Jan 2020 - Dec 2021</div>
+          <div class="experience-description">
+            Worked on developing and maintaining web applications. Improved the performance of the main product by 20% through optimized code and efficient algorithms.
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="experience-item">
+      <div class="experience-logo">
+        <img src="https://via.placeholder.com/60" alt="Company Logo">
+      </div>
+      <div class="experience-details">
+        <div class="experience-title">Junior Developer</div>
+        <div class="experience-company">Startup Inc.</div>
+        <div class="experience-duration">Jun 2018 - Dec 2019</div>
+        <div class="experience-description">
+          Assisted in the development of client-side web applications. Gained experience in JavaScript, HTML, and CSS, and contributed to several key projects.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
