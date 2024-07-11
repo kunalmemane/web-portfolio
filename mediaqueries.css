@@ -45,6 +45,10 @@
     .about-containers {
       margin-top: 0;
     }
+    .text-container {
+      text-align: justify;
+      margin-bottom: 16px;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -79,6 +83,11 @@
     .btn-container {
       flex-wrap: wrap;
     }
+
+    .section-container .section__pic-container .about-pic{
+      margin: 12px 0px;
+    }
+
     .contact-info-container {
       margin: 0;
     }
@@ -119,6 +128,13 @@
     }
     .text-container {
       text-align: justify;
+      margin-bottom: 16px;
+    }
+
+    .section-container .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 0.8rem;
     }
   }
   

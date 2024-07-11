@@ -32,7 +32,8 @@
         <span></span>
         <span></span>
       </div>
-      <div class="menu-links">
+
+      <div class="menu-links animate">
         <li class=".nav-item"><a href="#about" onclick="toggleMenu()">About</a></li>
         <li class=".nav-item"><a href="#skills" onclick="toggleMenu()">Skills</a></li>
         <li class=".nav-item"><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -58,10 +59,11 @@
         </button>
       </div>
       <div id="socials-container">
-        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-          onclick="location.href='https://linkedin.com/in/kunalmemane'" />
+        <img src="./assets/linkedin.png" alt="My Github profile" class="icon"
+          onclick="window.open('https://linkedin.com/in/kunalmemane', '_blank');" />
+
         <img src="./assets/github.png" alt="My Github profile" class="icon"
-          onclick="location.href='https://www.github.com/kunalmemane9150'" />
+          onclick="window.open('https://www.github.com/kunalmemane9150', '_blank');" />
       </div>
     </div>
   </section>
@@ -70,11 +72,30 @@
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
+
     <div class="section-container">
       <div class="section__pic-container">
         <img src="./assets/my-profile-black-white-2.png" alt="Profile picture" class="about-pic" />
       </div>
+
       <div class="about-details-container">
+
+        <div class="text-container">
+          <p>
+            I am a Computer Engineering graduate from VIT, Pune with a
+            solid foundation in software development, which I further honed
+            during my internship at Vuclip India Pvt. Ltd.. During my time at Vuclip,
+            I gained hands-on experience in backend engineering, working with
+            technologies such as Golang, Java, PostgreSQL &#38; AWS etc.
+          </p>
+          <!-- <p>My internship provided me with practical exposure to developing
+            and maintaining microservices architectures and implementing
+            object-oriented and SOLID principles. These experiences have equipped 
+            me with a comprehensive skill set and a deep understanding of backend 
+            systems, preparing me to tackle complex software development challenges effectively.
+          </p> -->
+        </div>
+
         <div class="about-containers">
           <div class="details-container">
             <img src="./assets/experience.png" alt="Experience icon" class="icon" />
@@ -84,7 +105,7 @@
             <div class="experience-section">
 
               <!-- Experience Item 1 -->
-              <!--  <div class="experience-item">
+              <!-- <div class="experience-item">
                 <div class="experience-logo">
                   <img src="./assets/Experience/redhat_icon.png" alt="Red Hat Logo">
                 </div>
@@ -107,6 +128,18 @@
               </div> -->
 
               <!-- Experience Item 2 -->
+              <!-- <div class="experience-item">
+                <div class="experience-logo">
+                  <img src="/assets/Experience/redhat_icon.png" alt="Viu Logo">
+                </div>
+                <div class="experience-details">
+                  <div class="experience-title">Software Maintenance Trainee</div>
+                  <div class="experience-company">Red Hat</div>
+                  <div class="experience-duration">July 2024 - Present</div>
+                </div>
+              </div> -->
+
+              <!-- Experience Item 3 -->
               <div class="experience-item">
                 <div class="experience-logo">
                   <img src="/assets/Experience/viu_icon.png" alt="Viu Logo">
@@ -115,13 +148,9 @@
                   <div class="experience-title">Software Development Intern</div>
                   <div class="experience-company">Vuclip India Pvt. Ltd.</div>
                   <div class="experience-duration">Oct 2023 - Mar 2024</div>
-                  <!-- <div class="experience-description">
-                    Lorem ipsum dolor sit abet. </div> -->
                 </div>
               </div>
-
             </div>
-
           </div>
 
           <div class="details-container">
@@ -141,23 +170,13 @@
               </div>
             </div>
           </div>
+        </div>
 
-        </div>
-        <div class="text-container">
-          <p>
-            I am a Computer Engineering graduate from VIT,
-            Pune. I have hands-on experience in software
-            development during my 6-month internship with
-            Vuclip India Pvt. Ltd., where I contributed
-            to the product engineering team. My role involved
-            backend engineering and development, enhancing
-            my proficiency in designing and developing scalable software solutions.
-          </p>
-        </div>
       </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
   </section>
+
 
   <section id="skills">
     <p class="section__text__p1">Explore My</p>
