@@ -92,6 +92,10 @@
     font-size: 0.9rem;
   }
 
+  .text-container{
+    font-size: 1rem;
+  }
+
   .contact-info-upper-container {
     gap: 0.5rem;
   }
